@@ -1,10 +1,25 @@
 @import "./partials/variables";
 
-body {
+* {
+  box-sizing: border-box;
+}
+
+body,
+html {
   background: $bg-light-gray;
   font-family: $font;
 }
+
 main {
+  // display: flex;
+  // justify-content: center;
+  // align-items: center;
+  // padding: 5%;
+  height: 100vh;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .component__container {
@@ -13,8 +28,6 @@ main {
   padding: #{20 * 0.06}em;
   border-radius: 20px;
   text-align: center;
-  margin: auto;
-
   box-shadow: 1px -1px 4px 0px;
 }
 

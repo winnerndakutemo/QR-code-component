@@ -1,6 +1,19 @@
-body {
+* {
+  box-sizing: border-box;
+}
+
+body,
+html {
   background: hsl(212, 45%, 89%);
   font-family: "Outfit", sans-serif;
+}
+
+main {
+  height: 100vh;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .component__container {
@@ -9,7 +22,6 @@ body {
   padding: 1.2em;
   border-radius: 20px;
   text-align: center;
-  margin: auto;
   box-shadow: 1px -1px 4px 0px;
 }
 
